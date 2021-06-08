@@ -38,7 +38,7 @@ CREATE TABLE IF NOT EXISTS `messenger` (
   PRIMARY KEY (`id`),
   KEY `user_id` (`user_id`),
   KEY `cible` (`cible`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 -- --------------------------------------------------------
 
@@ -92,7 +92,7 @@ CREATE TABLE IF NOT EXISTS `sizes` (
   `id` int(10) NOT NULL AUTO_INCREMENT,
   `sizes` varchar(40) NOT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=MyISAM AUTO_INCREMENT=5 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+) ENGINE=MyISAM AUTO_INCREMENT=5 DEFAULT CHARSET=latin1;
 
 --
 -- Déchargement des données de la table `sizes`
@@ -124,7 +124,7 @@ CREATE TABLE IF NOT EXISTS `users` (
   UNIQUE KEY `id` (`id`),
   UNIQUE KEY `pseudo` (`pseudo`),
   UNIQUE KEY `email` (`email`)
-) ENGINE=InnoDB AUTO_INCREMENT=201 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+) ENGINE=InnoDB AUTO_INCREMENT=201 DEFAULT CHARSET=latin1;
 
 --
 -- Déchargement des données de la table `users`
