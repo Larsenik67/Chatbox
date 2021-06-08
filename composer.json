@@ -1,0 +1,13 @@
+{
+    "name": "tchat/tchat",
+    "type": "project",
+    "authors": [
+        {
+            "name": "madbrain67",
+            "email": "ferrerofranck@yahoo.fr"
+        }
+    ],
+    "require-dev": {
+        "fzaninotto/faker": "^1.9"
+    }
+}
